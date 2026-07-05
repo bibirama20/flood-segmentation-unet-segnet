@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+
+# Dataset lokal (metadata.csv, Image/, Mask/) - tidak di-push, terlalu besar.
+# Siapkan manual sebelum menjalankan fitur pencocokan ground truth otomatis.
+data/
+
+# Model lama yang sudah tidak dipakai (ternyata model klasifikasi, bukan segmentasi)
+model_flood_classification_v2.h5
